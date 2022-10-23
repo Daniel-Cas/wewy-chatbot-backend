@@ -23,12 +23,12 @@ docker build -t wewy-chatbot .
 ## Usage
 To run the chatbot with uvicorn locally, you can do so with the following command 
 ``` shell
- uvicorn api.main:api --host localhost --port 8080
+ uvicorn api.main:api --host localhost --port 8000
 ```
 
 If you used the Dockerfile to run the chatbot use the following command
 ``` docker
-docker run  --name wewy -p 8080:8080 wewy
+docker run  --name wewy -p 8000:8000 wewy
 ```
 
 ## Deployment

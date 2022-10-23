@@ -1,5 +1,6 @@
-from api.models import models
+from fastapi import WebSocket
 
 
-def processor_response(body: models.Body):
-    return f"Your message is: {body.message}"
+async def processor_response(webSocket: WebSocket):
+    message = await webSocket.receive_json()
+    return f"Your message is: {message}"
