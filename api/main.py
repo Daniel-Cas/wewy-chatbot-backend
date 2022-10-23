@@ -1,16 +1,17 @@
-import fastapi
-from .services import chatbot_service
-from .models import models
+from fastapi import FastAPI, WebSocket
+import uvicorn
 
-api = fastapi.FastAPI()
+app = FastAPI()
 
+@app.websocket("/test")
+async def test(websocket: WebSocket):
+    await websocket.accept()
+    while True:
+        request = await websocket.receive_json()
+        message = request["message"]
+        await websocket.send_json({
+            "message": f" This is your message: {message}"
+        })
 
-@api.get("/")
-async def root():
-    return {"message": "Hello World"}
-
-
-@api.get("/chatbot/speak")
-async def say_hello(body: models.Body):
-    chatbot_service.processor_response(body)
-    return {"message": f"Your message is: {body.message}"}
+if __name__ == "__main__":
+    uvicorn.run("main:app")
