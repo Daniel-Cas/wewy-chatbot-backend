@@ -1,16 +1,40 @@
-import fastapi
+from fastapi import FastAPI, WebSocket, WebSocketDisconnect
+from fastapi.middleware.cors import CORSMiddleware
+import uvicorn
+import logging
+
 from .services import chatbot_service
-from .models import models
 
-api = fastapi.FastAPI()
+api = FastAPI()
+
+origins = [
+    "http://localhost:4200"
+]
+
+logger = logging.getLogger("uvicorn.info")
+
+api.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"]
+)
 
 
-@api.get("/")
-async def root():
-    return {"message": "Hello World"}
+@api.websocket("/test")
+async def test(websocket: WebSocket):
+    await websocket.accept()
+    try:
+        while True:
+            logger.info(f"Message received {websocket.application_state}")
+
+            await websocket.send_json(
+                await chatbot_service.processor_response(websocket)
+            )
+    except WebSocketDisconnect:
+        logger.error("Disconnect webSocket")
 
 
-@api.get("/chatbot/speak")
-async def say_hello(body: models.Body):
-    chatbot_service.processor_response(body)
-    return {"message": f"Your message is: {body.message}"}
+if __name__ == "__main__":
+    uvicorn.run("main:api")
