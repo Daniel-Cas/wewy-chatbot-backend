@@ -8,9 +8,7 @@ These are the instructions to be able to start the bot api, which has a Dockerfi
 
 Step-by-step installation of everything needed to start the chatbot
 ``` bash
-pip install fastapi
-pip install uvicorn
-pip install pydantic
+pip install -r requeriments.txt
 ```
 
 ### Installation with docker

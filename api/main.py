@@ -3,7 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 import uvicorn
 import logging
 
-from services import chatbot_service
+from .services import chatbot_service
 
 api = FastAPI()
 
