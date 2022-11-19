@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "nice-theater-367918",
+  "private_key_id": "c442584f34fc58f20396208c2cb9b3049c28f8b4",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDNYLki25gwuNnR\nZTsgHPoWUIqmKhZ3f9NuF67bGimkGcige+NDy5F7zxGqwPB5V3HCJDAM031z5827\noeFPBFeskfgbaCfo2fZoqokFftvOmRvo+3LY4etDnyYCTXM0G8b7MPdPLDEM/CyQ\nbmiBT1z1ly0kmTbowL2LfhReQhp6hTXK8IThjxKA85VxVLMq0rX8J7lhBZFV6OFl\nUTBz09u67E9+sfjjZIAZj8/ucAK1S0/Z7vxKkwKSFaYVS3xpHR9T+JLBqVi63X0z\no1e3eaEy9AyEFzOUythH8mGaR4ePW2RXA1q8cCK3+73YGuZEDbeAtNmBhorhlFlB\nLxdXOafXAgMBAAECggEAU1iBSWgcZwldO+D9EZcw1oVw/uXtoCk7wF3UFA6V/4aH\nKLmeDRE7xSbPYKBT9qpJ/CN7bHkXXEYh85dKPCri+aFzMoweRhzOJsOuP5Cv2zO/\nY9lHTkTAmPypDB4qNmdfZOkGNBcXANIFs8damb9/Vhs3sraK1gIB6e4MjgP9guJ6\nC7QSwmDFCmM5Hssm9Ge3oCJAqvNgeMEkI4Wl5yfJmMdWIzUK56MQICu4rDaz8fcT\nbbgGvgWDw/3bf+kjmTeq0wgr9+OdeMNGAY7fc54eNXysN4uNXa62Z+S7h8x0LtdD\nEMEjcJL9xLhNSIVYox6iLZWe1azJcU24rKh6YiYDgQKBgQDxY6FV7G52mYU0LoMW\ncFtF+Cah1UAe4nLlPke9SO/3yuWpJCQTo6AqvBQv8AZTnmvtnp/tJdOvyMSIvz15\nzTTxKyXbjGbsxX5UGmKdlb6PZZud0spniQFHvrtk6mHtlhNB8ldQzXTUT3TtsSlG\nqQhCBRAZv/vTUR/7NfaZnMu9pwKBgQDZzxcjpyB16R9qwGjoiwt6QjSZmCFHrIs6\nwBqRzrM3cWwc9DlJRVSuCu+fnAH1O84yyh478LCs57fEEkj2JnG/ZtIvrijrls22\nM1lIGnBRy9rIq3MswFKXrBsd/HpCCrqBaoW6N8P+rGLBg3Bcaj8Lo4iZm3eNMSGv\nOMHqAljqUQKBgHt9A5FIZe5odVuPm+JD0n3GCEVsKeRi5nJeXSb5hEHY24qfAZHG\neG7ETvODMElg10f1iU0xt8zKwbhPVWzVTQs/jpt1hUYFdq4h3WdOrvD/AxBHQOKc\nlToV2hozSavYxbtL9d1Rbj4a8++RXVNXr/DOVEFIFNUzQFAseB53t0crAoGAFf6d\nnZIQ6xdBfuwzK9hurkflO+Vq5uv7m1Eu3a571otzmXDoIAgKRxD/paSBZhxF9EcI\nypDBppQ3sGsQRxsWvXdKnln989xkpZOF3owc74WgcEcv+ELrlDli+6I1Tln6/3qc\nSnO7LQqHZnc5b3ujJi+7aZeTeQSPHDylCFZ4WCECgYBDkrdUuajfHKfHN+HugqAd\nBhLKkHpo+U7D3CZaPW7JpYOA7YYZLNf/DKmOgp6bH0Qe6NYNrDOdOQCE0rdzoKiU\n1Z7+LCA0BD+p22uggSond19x4wiyJhbV6jMjy9nKc94z7H9XIVRjyCzbWku5u3cZ\nU5WfRV7T3//O1plw5QRyVQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "test-udec@nice-theater-367918.iam.gserviceaccount.com",
+  "client_id": "116983745765403432390",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/test-udec%40nice-theater-367918.iam.gserviceaccount.com"
+}
