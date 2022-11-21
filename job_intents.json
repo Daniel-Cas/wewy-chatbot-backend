@@ -1,0 +1,202 @@
+{
+  "intents": [
+    {
+      "tag": "saludos",
+      "patterns": [
+        "hola",
+        "¿como estas?",
+        "como esta",
+        "¿como te ha ido?",
+        "ey",
+        "Hola",
+        "¿Como estas?",
+        "Buen dia",
+        "¿Que tal tu dia?"
+      ],
+      "responses": [
+        "Hola",
+        "¿Cuentame en que puedo ayudarte?",
+        "Hola de nuevo",
+        "Yo bien y tu?",
+        "Feliz de hablar contigo y tu?",
+        "Encantado de verte de nuevo"
+      ]
+    },
+    {
+      "tag": "despedidas",
+      "patterns": [
+        "Adios",
+        "Hasta luego",
+        "Adios",
+        "Ok Adiós",
+        "Adiós"
+      ],
+      "responses": [
+        "¡Nos vemos!",
+        "Que tengas un buen día",
+        "Claro adiós",
+        "Hasta luego amigo",
+        "Sayoonara",
+        "Tranquilo",
+        "Claro amigo"
+      ]
+    },
+    {
+      "tag": "agradecimiento",
+      "patterns": [
+        "gracias",
+        "muchas gracias",
+        "estuvo genial",
+        "impresionante, gracias",
+        "gracias por ayudarme"
+      ],
+      "responses": [
+        "Feliz de Ayudarté",
+        "Es un gusto poder ayudarte",
+        "Te espero prontó",
+        "De nada",
+        "Hasta la proxima"
+      ]
+    },
+    {
+      "tag": "noanswer",
+      "patterns": [],
+      "responses": [
+        "Lo siento, no te entiendo",
+        "Por favor, ingresa más información",
+        "No estoy seguro de entender eso"
+      ]
+    },
+    {
+      "tag": "nombre",
+      "patterns": [
+        "¿Cómo te llamas?",
+        "¿Cuál es tu nombre?",
+        "Dime tu nombre",
+        "¿Quién eres?",
+        "Háblame de ti",
+        "¿Tú eres?"
+      ],
+      "responses": [
+        "Soy Wawy",
+        "Mi nombre es Wawy",
+        "hablas con Wawy",
+        "Wawy es mi nombre"
+      ]
+    },
+    {
+      "tag": "opciones",
+      "patterns": [
+        "¿Que haces?",
+        "¿Cómo puedes ayudarme?",
+        "Que sabes",
+        "¿Cuál es tu especialidad?"
+      ],
+      "responses": [
+        "Soy un apoyo emocional y conozco temas relacionados con psicología",
+        "Puedo tocar temas de psicología"
+      ]
+    },
+    {
+      "tag": "sentimiento_depresion",
+      "patterns": [
+        "tengo depresion",
+        "Estoy deprimido",
+        "estoy irritado",
+        "sentimiento de vacio",
+        "dificultad para dormir",
+        "no puedo dormir"
+      ],
+      "responses": [
+        "Cuando surgen momentos así, los habitados por la tristeza o el desánimo, no podemos ni debemos quedarnos paralizados. No hay que “luchar” ante nuestros miedos o ante nuestros problemas, hay que entenderlos, desmenuzarlos, hacerlos pequeños para después aprender de ellos y avanzar.",
+        "Una de sus enseñanzas, es simple, es útil y rotunda: ¿por qué debemos desperdiciar lo que cada día puede ofrecernos? El aquí y ahora no volverá a repetirse. Así que recordémoslo, nada ni nadie tiene derecho a apagar nuestra oportunidad de ser felices. Quitemos poder a esas nubes oscuras que rondan en nuestra mente y aprovechemos nuestros días.",
+        "No podemos negar que las personas somos muy aficionadas a hablar de lo negativo, de nuestros problemas. De hecho, rara vez pasa un día sin que escuchemos críticas o sin que alguien nos explique cuánto detesta esto y lo otro. Por tanto, sería conveniente poner un filtro a todo este tipo de dinámicas para que nuestra salud mejorase en todos los sentidos.",
+        "cuando pensamos que hemos tocado fondo y que no hay salida alguna, en realidad, ante nosotros puede abrirse no una puerta, sino un universo entero. Solo hay que saber verlo.",
+        "En ocasiones tropezamos con la misma piedra hasta 20 veces. ¿Es eso motivo de rendición? En absoluto, en esta vida solo sobreviven los cabezotas, y lejos de entender un error como un final o una caída como una pérdida irreparable, debemos verlo como lecciones que asumir para intentar hacerlo mucho mejor la próxima vez…"
+      ]
+    },
+    {
+      "tag": "información_sobre_la_depresión",
+      "patterns": [
+        "depresión",
+        "depresion",
+        "Depresión",
+        "¿Que es la depresión?",
+        "¿En que consiste la depresión?"
+      ],
+      "responses": [
+        "La depresión se puede describir como el hecho de sentirse triste, melancólico, infeliz, abatido o derrumbado. ",
+        "Es una enfermedad que se caracteriza por una tristeza persistente y por la pérdida de interés en las actividades con las que normalmente se disfruta, así como por la incapacidad para llevar a cabo las actividades cotidianas, durante al menos dos semanas",
+        "La depresión es un trastorno mental caracterizado fundamentalmente por un bajo estado de ánimo y sentimientos de tristeza, asociados a alteraciones del comportamiento, del grado de actividad y del pensamiento.",
+        "La depresión es un trastorno mental común. Se estima que en todo el mundo el 5% de los adultos padecen depresión"
+      ]
+    },
+    {
+      "tag": "causas_de_la_depresion",
+      "patterns": [
+        "causas de la depresión",
+        "sintomas de la depresión"
+      ],
+      "responses": [
+        "La depresión es el resultado de interacciones complejas entre factores sociales, psicológicos y biológicos. Quienes han pasado por circunstancias vitales adversas (desempleo, luto, eventos traumáticos) tienen más probabilidades de sufrir depresión. A su vez, la depresión puede generar más estrés y disfunción, y empeorar la situación vital de la persona afectada y, por consiguiente, la propia depresión."
+      ]
+    },
+    {
+      "tag": "sentimiento_ansiedad",
+      "patterns": [
+        "tengo ansiedad",
+        "Estoy preocupado",
+        "preocupado",
+        "nervioso"
+      ],
+      "responses": [
+        "Esta distorsión se llama “adivinación” y está vinculada a la ansiedad. \nConsiste en predecir el resultado de eventos antes de que sucedan. \nPero lo cierto es que nadie puede adivinar el futuro, aunque tú creas saber que las cosas van a empeorar. \nNo deje que tu mente te engañe!!. "
+      ]
+    },
+    {
+      "tag": "información_sobre_la_ansiedad",
+      "patterns": [
+        "ansiedad",
+        "Ansiedad",
+        "¿Que es la ansiedad?",
+        "¿En que consiste la ansiedad?"
+      ],
+      "responses": [
+        "La ansiedad es un sentimiento de miedo, temor e inquietud. Puede hacer que sude, se sienta inquieto y tenso, y tener palpitaciones. Puede ser una reacción normal al estrés. Por ejemplo, puede sentirse ansioso cuando se enfrenta a un problema difícil en el trabajo, antes de tomar un examen o antes de tomar una decisión importante."
+      ]
+    },
+    {
+      "tag": "causas_de_la_ansiedad,",
+      "patterns": [
+        "causas de la ansiedad"
+      ],
+      "responses": [
+        "La ansiedad se desencadena cuando una situación determinada es capaz de generar en la persona la expectativa de que su resolución va a ser negativa o que tal situación va a tener consecuencias negativas. Una reunión profesional con tu jefe y pronosticas que te va a reñir o que te va a despedir, un familiar padece una enfermedad grave y prevés que tiene difícil solución"
+      ]
+    },
+    {
+      "tag": "estado_animo",
+      "patterns": [
+        "estoy deprimido",
+        "necesito ayuda"
+      ],
+      "responses": [
+        "Dime mas de como te sientes. Estoy aquí para escucharte y apoyarte"
+      ]
+    },
+    {
+      "tag": "sentimiento_personal",
+      "patterns": [
+        "no le encuentro salida a esta situación",
+        "nadie me quiere",
+        "me siento solo",
+        "siempre la embarro",
+        "no doy lo mejor de mi",
+        "me siento frustrado"
+      ],
+      "responses": [
+        "No eres la única persona a quien le pasa esto. Muchas personas sufren de lo mismo. \nNo tienes nada de qué avergonzarte. \nSal a caminar, siente el aire que respiras, haz deporte y vive la vida como ninguna"
+      ]
+    }
+  ]
+}

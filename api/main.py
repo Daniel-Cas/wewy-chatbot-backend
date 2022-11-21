@@ -3,7 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 import uvicorn
 import logging
 
-from .services import chatbot_service
+from .services import deep_learning_service
 
 api = FastAPI()
 
@@ -30,7 +30,7 @@ async def test(websocket: WebSocket):
             logger.info(f"Message received {websocket.application_state}")
 
             await websocket.send_json(
-                await chatbot_service.processor_response(websocket)
+                await deep_learning_service.processor_response(websocket)
             )
     except WebSocketDisconnect:
         logger.error("Disconnect webSocket")
